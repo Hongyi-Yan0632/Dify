@@ -97,7 +97,7 @@ class DuckDuckGoSearchAPIWrapper(BaseModel):
 class DuckDuckGoSearchRun(BaseModel):
     """Tool that queries the DuckDuckGo search API."""
 
-    name = "duckduckgo_search"
+    name: str = "duckduckgo_search"
     description = (
         "A wrapper around DuckDuckGo Search. "
         "Useful for when you need to answer questions about current events. "
