@@ -5,7 +5,7 @@ from typing import Any
 
 import psycopg2.extras
 import psycopg2.pool
-from pydantic import model_validator, BaseModel
+from pydantic import BaseModel, model_validator
 
 from core.rag.datasource.vdb.vector_base import BaseVector
 from core.rag.models.document import Document

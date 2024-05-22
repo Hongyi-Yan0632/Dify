@@ -4,7 +4,7 @@ import time
 from typing import Any, Optional
 
 from flask import Flask, current_app
-from pydantic import ConfigDict, BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from core.app.apps.base_app_queue_manager import AppQueueManager, PublishFrom
 from core.app.entities.queue_entities import QueueMessageReplaceEvent

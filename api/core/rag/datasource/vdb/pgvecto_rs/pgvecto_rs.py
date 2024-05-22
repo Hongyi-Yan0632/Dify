@@ -4,7 +4,7 @@ from uuid import UUID, uuid4
 
 from numpy import ndarray
 from pgvecto_rs.sqlalchemy import Vector
-from pydantic import model_validator, BaseModel
+from pydantic import BaseModel, model_validator
 from sqlalchemy import Float, String, create_engine, insert, select, text
 from sqlalchemy import text as sql_text
 from sqlalchemy.dialects import postgresql

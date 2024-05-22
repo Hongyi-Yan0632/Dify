@@ -3,7 +3,7 @@ from typing import Any, Optional
 
 import requests
 import weaviate
-from pydantic import model_validator, BaseModel
+from pydantic import BaseModel, model_validator
 
 from core.rag.datasource.vdb.field import Field
 from core.rag.datasource.vdb.vector_base import BaseVector

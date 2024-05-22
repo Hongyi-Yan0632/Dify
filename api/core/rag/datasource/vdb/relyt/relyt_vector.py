@@ -1,7 +1,7 @@
 import uuid
 from typing import Any, Optional
 
-from pydantic import model_validator, BaseModel
+from pydantic import BaseModel, model_validator
 from sqlalchemy import Column, Sequence, String, Table, create_engine, insert
 from sqlalchemy import text as sql_text
 from sqlalchemy.dialects.postgresql import JSON, TEXT

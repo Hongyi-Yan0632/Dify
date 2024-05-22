@@ -2,7 +2,7 @@ import logging
 import os
 from typing import Optional
 
-from pydantic import ConfigDict, BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from core.helper.module_import_helper import load_single_subclass_from_source
 from core.helper.position_helper import get_position_map, sort_to_dict_by_position_map

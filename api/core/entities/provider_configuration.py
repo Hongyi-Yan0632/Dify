@@ -6,7 +6,7 @@ from collections.abc import Iterator
 from json import JSONDecodeError
 from typing import Optional
 
-from pydantic import ConfigDict, BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from core.entities.model_entities import ModelStatus, ModelWithProviderEntity, SimpleModelProviderEntity
 from core.entities.provider_entities import (

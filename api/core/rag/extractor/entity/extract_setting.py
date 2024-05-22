@@ -1,4 +1,4 @@
-from pydantic import ConfigDict, BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from models.dataset import Document
 from models.model import UploadFile

@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Optional
 
-from pydantic import ConfigDict, BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from core.model_runtime.entities.common_entities import I18nObject
 from core.model_runtime.entities.model_entities import AIModelEntity, ModelType, ProviderModel
